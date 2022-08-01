@@ -1,0 +1,50 @@
+:root{
+    --bs-font-sans-serif: 'Rubik', sans-serif;
+}
+body{
+    background-image: url("/img/hero-bg.png");
+    background-color: rgb(243, 243, 243);
+}
+
+a{
+    color: var(--bs-dark)
+}
+/* category */
+.category__link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    transition: 250ms all;
+}
+.category__link:hover{
+    transform: scale(0.9);
+    text-decoration: none;
+    color: #000;
+}
+.category__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px 6px rgba(0, 0, 0, .16);
+    overflow: hidden;
+    border-radius: 35px;
+}
+.category__img img{
+    width: 100%;
+    object-fit: cover;
+}
+.category__img--large{
+    height: 330px;
+}
+.shadow2{
+    opacity: -0.1;
+}
+.viewAll{
+    margin-top: -70px;
+    color: #fff;
+    padding: 10;
+    background-color: rgba(0,0,0,0.5); 
+    border-radius: 15px;
+}
